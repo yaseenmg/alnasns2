@@ -1,0 +1,172 @@
+/*==========Start Media Query==========*/
+/*Extra Small Screen*/
+@media(max-width:767px)
+{
+/*****
+====================================================================
+	 Social Media Icon All Page Height
+====================================================================
+*****/
+.sticky-icon
+{
+	position: fixed;
+	top: 20%;
+}
+
+/*****
+====================================================================
+	 NavBar
+====================================================================
+*****/
+.top_navbar
+{
+	padding-bottom: 40px;
+}
+.top_navbar .ptel
+{
+	font-size: 10px;
+}
+.top_navbar .pemail
+{
+	font-size: 10px;
+}
+.top_navbar .login
+{
+	font-size: 23px;
+    margin-top: -51px;
+}
+.top_navbar .rigister
+{
+	font-size: 23px;
+    margin-top: -61px;
+    margin-right: 129px;
+
+}
+.header
+{
+  padding: 12 5%;
+  margin-top: 20px;
+}
+
+
+    .logo {
+        width: auto !important ;
+         height: auto !important;
+        margin-top: 2px;
+    }
+
+
+/*=====End NavBar=====*/
+
+/*****
+====================================================================
+	Main Slider[Carousel]
+====================================================================
+*****/
+.carousel
+{
+  padding-top: 400px;
+}
+
+.text-container .ptext
+{
+	font-size: 15px;
+}
+
+/*****
+====================================================================
+	 Topics that interest you
+====================================================================
+*****/
+.post-slider .post-wrapper .post .slider-image
+{
+	height: 190px;
+}
+
+.post-slider .next
+{
+	position: absolute;
+    right: 5px;
+}
+
+.post-slider .prev
+{
+	position: absolute;
+    left: 5px;
+}
+
+.post-slider .h1-slidetitle
+{
+	padding-top: 80px;
+}
+/*=====End Topics that interest you=====*/
+
+/*****
+====================================================================
+	Start Our Team
+====================================================================
+*****/
+.team-section .team-items .item img
+{
+	height: 400px;
+}
+
+/*===============================================*/
+/*Start Archive Videos*/
+/*===============================================*/
+.archive-video .item .item-video .iframevideo
+{
+	width: 100%;
+}
+/*End Archive Videos*/
+
+/*****
+====================================================================
+	Start Footer
+====================================================================
+*****/
+.footer .footer-col img
+{
+	width: 125%;
+    height: 132px;
+}
+.footer .footer-col h3
+{
+	font-size: 51px;
+    margin-left: -74px;
+}
+
+.footer .footer-col p
+{
+	font-size: 19px;
+    margin-left: -80px;
+}
+
+.footer .footer-col .contactfooter
+{
+	padding-top: 0;
+	padding-left: 0;
+}
+
+.footer .footer-col .contactfooter img
+{
+    width: 67px;
+    height: 53px;
+}
+
+/*=====End Footer=====*/
+
+}
+/*Small Screen*/
+@media(min-width:768px) and (max-width:991px)
+{
+
+}
+/*Medium Screen*/
+@media(min-width:992px) and (max-width:1199px)
+{
+
+}
+/*Large Screen*/
+@media(min-width:1200px)
+{ }
